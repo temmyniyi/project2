@@ -1,0 +1,37 @@
+<div id="container">
+    <form>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Add new Services and Passwords</h1>
+                <p class="lead">
+                    Below you can add new service/password combinations. You can also
+                    update or delete any of your prior entries at any time.
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="service">Service</label>
+            <input type="service" class="form-control" id="serviceInput" placeholder="Enter Service" />
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input class="form-control" id="servicePass" placeholder="Password" />
+        </div>
+        <button type="submit" class="btn btn-primary" id="addService">
+            Submit
+        </button>
+    </form>
+    <div class="card">
+        <div class="card-body" id="servicePost">
+        </div>
+    </div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
